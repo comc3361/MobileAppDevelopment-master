@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="switchGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="omX-Nx-g1N">
+                                <rect key="frame" x="90" y="94" width="133" height="133"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video Games" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJg-Ry-jdE">
+                                <rect key="frame" x="36" y="235" width="241" height="56"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0014956853014628795" green="0.74917140151515149" blue="0.097646487642658944" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="14" minValue="6" maxValue="22" translatesAutoresizingMaskIntoConstraints="NO" id="dXV-cC-yZU">
+                                <rect key="frame" x="93" y="465" width="153" height="31"/>
+                                <connections>
+                                    <action selector="changeFontSize:" destination="vXZ-lx-hvc" eventType="valueChanged" id="lkW-w5-oWD"/>
+                                </connections>
+                            </slider>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="Gwv-k4-RWH">
+                                <rect key="frame" x="95" y="299" width="123" height="29"/>
+                                <segments>
+                                    <segment title="rpg"/>
+                                    <segment title="fps"/>
+                                </segments>
+                                <color key="tintColor" red="0.0" green="0.60016177398989901" blue="0.038581501084891744" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="changeInfo:" destination="vXZ-lx-hvc" eventType="valueChanged" id="cVJ-xi-myG"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Capitalization" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSD-90-GGj">
+                                <rect key="frame" x="52" y="386" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="azl-a0-pYu">
+                                <rect key="frame" x="195" y="381" width="51" height="31"/>
+                                <connections>
+                                    <action selector="updateFont:" destination="vXZ-lx-hvc" eventType="valueChanged" id="H0e-RC-SpJ"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="16" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRp-Qf-Yyz">
+                                <rect key="frame" x="52" y="467" width="55" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="capitalSwitch" destination="azl-a0-pYu" id="4A2-uB-vXI"/>
+                        <outlet property="fontSizeLabel" destination="eRp-Qf-Yyz" id="B4i-Y2-CpR"/>
+                        <outlet property="gameImage" destination="omX-Nx-g1N" id="QW0-2s-7S4"/>
+                        <outlet property="imageControl" destination="Gwv-k4-RWH" id="Xud-nR-pLC"/>
+                        <outlet property="titleLabel" destination="ZJg-Ry-jdE" id="ArP-G8-G4n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="417"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="title" width="133" height="133"/>
+    </resources>
+</document>
