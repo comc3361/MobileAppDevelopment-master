@@ -156,6 +156,7 @@
 		076742AE1BA1D98600A89C65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Connor Flynn Mcguinness";
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				076742D71BA1D98600A89C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		076742D81BA1D98600A89C65 /* Build configuration list for PBXNativeTarget "switchGameTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				076742DA1BA1D98600A89C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
