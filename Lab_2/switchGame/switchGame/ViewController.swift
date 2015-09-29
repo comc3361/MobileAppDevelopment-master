@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var imageControl: UISegmentedControl!
     
+    func refreshUI () {
+        gameImage.image = UIImage(named: "title")
+    }
+    
     func updateCaps () {
         if capitalSwitch.on
         {
