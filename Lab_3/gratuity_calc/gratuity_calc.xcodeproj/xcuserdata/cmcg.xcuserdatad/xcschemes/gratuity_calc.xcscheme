@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07A540FF1BB453E400BBD208"
-               BuildableName = "TipCalc.app"
-               BlueprintName = "TipCalc"
-               ReferencedContainer = "container:TipCalc.xcodeproj">
+               BlueprintIdentifier = "884D6F061BBCB95700DB898F"
+               BuildableName = "gratuity_calc.app"
+               BlueprintName = "gratuity_calc"
+               ReferencedContainer = "container:gratuity_calc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07A541141BB453E400BBD208"
-               BuildableName = "TipCalcTests.xctest"
-               BlueprintName = "TipCalcTests"
-               ReferencedContainer = "container:TipCalc.xcodeproj">
+               BlueprintIdentifier = "884D6F1B1BBCB95700DB898F"
+               BuildableName = "gratuity_calcTests.xctest"
+               BlueprintName = "gratuity_calcTests"
+               ReferencedContainer = "container:gratuity_calc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07A541141BB453E400BBD208"
-               BuildableName = "TipCalcTests.xctest"
-               BlueprintName = "TipCalcTests"
-               ReferencedContainer = "container:TipCalc.xcodeproj">
+               BlueprintIdentifier = "884D6F1B1BBCB95700DB898F"
+               BuildableName = "gratuity_calcTests.xctest"
+               BlueprintName = "gratuity_calcTests"
+               ReferencedContainer = "container:gratuity_calc.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07A540FF1BB453E400BBD208"
-            BuildableName = "TipCalc.app"
-            BlueprintName = "TipCalc"
-            ReferencedContainer = "container:TipCalc.xcodeproj">
+            BlueprintIdentifier = "884D6F061BBCB95700DB898F"
+            BuildableName = "gratuity_calc.app"
+            BlueprintName = "gratuity_calc"
+            ReferencedContainer = "container:gratuity_calc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07A540FF1BB453E400BBD208"
-            BuildableName = "TipCalc.app"
-            BlueprintName = "TipCalc"
-            ReferencedContainer = "container:TipCalc.xcodeproj">
+            BlueprintIdentifier = "884D6F061BBCB95700DB898F"
+            BuildableName = "gratuity_calc.app"
+            BlueprintName = "gratuity_calc"
+            ReferencedContainer = "container:gratuity_calc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07A540FF1BB453E400BBD208"
-            BuildableName = "TipCalc.app"
-            BlueprintName = "TipCalc"
-            ReferencedContainer = "container:TipCalc.xcodeproj">
+            BlueprintIdentifier = "884D6F061BBCB95700DB898F"
+            BuildableName = "gratuity_calc.app"
+            BlueprintName = "gratuity_calc"
+            ReferencedContainer = "container:gratuity_calc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

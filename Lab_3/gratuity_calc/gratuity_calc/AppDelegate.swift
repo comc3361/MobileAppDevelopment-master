@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  TipCalc
+//  gratuity_calc
 //
-//  Created by Connor Flynn Mcguinness on 9/24/15.
+//  Created by Connor McGuinness on 9/30/15.
 //  Copyright (c) 2015 Connor McGuinness. All rights reserved.
 //
 

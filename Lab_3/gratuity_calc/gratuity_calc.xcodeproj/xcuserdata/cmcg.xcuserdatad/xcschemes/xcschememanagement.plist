@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TipCalc.xcscheme</key>
+		<key>gratuity_calc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>07A540FF1BB453E400BBD208</key>
+		<key>884D6F061BBCB95700DB898F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>07A541141BB453E400BBD208</key>
+		<key>884D6F1B1BBCB95700DB898F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

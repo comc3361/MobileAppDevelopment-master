@@ -1,15 +1,15 @@
 //
-//  TipCalcTests.swift
-//  TipCalcTests
+//  gratuity_calcTests.swift
+//  gratuity_calcTests
 //
-//  Created by Connor Flynn Mcguinness on 9/24/15.
+//  Created by Connor McGuinness on 9/30/15.
 //  Copyright (c) 2015 Connor McGuinness. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class TipCalcTests: XCTestCase {
+class gratuity_calcTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
