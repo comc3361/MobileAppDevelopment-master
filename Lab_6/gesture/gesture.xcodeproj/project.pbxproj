@@ -13,6 +13,8 @@
 		07E6AEDF1BCD596D00EEE791 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E6AEDE1BCD596D00EEE791 /* Images.xcassets */; };
 		07E6AEE21BCD596D00EEE791 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E6AEE01BCD596D00EEE791 /* LaunchScreen.xib */; };
 		07E6AEEE1BCD596D00EEE791 /* gestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E6AEED1BCD596D00EEE791 /* gestureTests.swift */; };
+		07E6AEF81BCD68B500EEE791 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E6AEF71BCD68B500EEE791 /* AVFoundation.framework */; };
+		07E6AEFA1BCD6BB500EEE791 /* Last of the Jedi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07E6AEF91BCD6BB500EEE791 /* Last of the Jedi.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		07E6AEE71BCD596D00EEE791 /* gestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E6AEEC1BCD596D00EEE791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07E6AEED1BCD596D00EEE791 /* gestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureTests.swift; sourceTree = "<group>"; };
+		07E6AEF71BCD68B500EEE791 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		07E6AEF91BCD6BB500EEE791 /* Last of the Jedi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Last of the Jedi.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E6AEF81BCD68B500EEE791 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		07E6AEC91BCD596D00EEE791 = {
 			isa = PBXGroup;
 			children = (
+				07E6AEF71BCD68B500EEE791 /* AVFoundation.framework */,
 				07E6AED41BCD596D00EEE791 /* gesture */,
 				07E6AEEA1BCD596D00EEE791 /* gestureTests */,
 				07E6AED31BCD596D00EEE791 /* Products */,
@@ -90,6 +96,7 @@
 		07E6AED51BCD596D00EEE791 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				07E6AEF91BCD6BB500EEE791 /* Last of the Jedi.mp3 */,
 				07E6AED61BCD596D00EEE791 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E6AEFA1BCD6BB500EEE791 /* Last of the Jedi.mp3 in Resources */,
 				07E6AEDD1BCD596D00EEE791 /* Main.storyboard in Resources */,
 				07E6AEE21BCD596D00EEE791 /* LaunchScreen.xib in Resources */,
 				07E6AEDF1BCD596D00EEE791 /* Images.xcassets in Resources */,
