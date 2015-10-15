@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>38F12B46-34C6-4572-B2F6-51B1C9B18DDA</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>maps</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>AEE974008CC8FA98B09138C1165ABF7E7B76CFE4</key>
 		<string>https://github.com/comc3361/MobileAppDevelopment-master.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Lab_5/maps/maps.xcodeproj/project.xcworkspace</string>
+	<string>Lab_5/maps/maps.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AEE974008CC8FA98B09138C1165ABF7E7B76CFE4</key>
