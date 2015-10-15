@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="audio" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rC1-ua-obe">
+                                <rect key="frame" x="285" y="222" width="30" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Alg-gm-FWd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6O4-7W-axY">
+                                <rect key="frame" x="284" y="318" width="33" height="30"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7eI-s2-NjD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lyk-wz-ROH">
+                                <rect key="frame" x="275" y="124" width="50" height="30"/>
+                                <state key="normal" title="Record">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X0Z-vD-WWv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.6063048997563607" blue="0.43294775322419032" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="rC1-ua-obe" firstAttribute="top" secondItem="Lyk-wz-ROH" secondAttribute="bottom" constant="68" id="458-Md-3WU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6O4-7W-axY" secondAttribute="bottom" constant="252" id="NNx-3k-W3f"/>
+                            <constraint firstAttribute="centerX" secondItem="6O4-7W-axY" secondAttribute="centerX" id="SJf-bI-UY6"/>
+                            <constraint firstItem="rC1-ua-obe" firstAttribute="top" secondItem="Lyk-wz-ROH" secondAttribute="bottom" constant="68" id="VJ3-ru-rOt"/>
+                            <constraint firstAttribute="centerX" secondItem="rC1-ua-obe" secondAttribute="centerX" id="Y1T-dF-v6y"/>
+                            <constraint firstAttribute="centerX" secondItem="Lyk-wz-ROH" secondAttribute="centerX" id="ZFO-hO-Kxe"/>
+                            <constraint firstItem="6O4-7W-axY" firstAttribute="top" secondItem="rC1-ua-obe" secondAttribute="bottom" constant="66" id="chv-sO-EmH"/>
+                            <constraint firstItem="Lyk-wz-ROH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="104" id="s64-2M-bwO"/>
+                            <constraint firstItem="6O4-7W-axY" firstAttribute="top" secondItem="rC1-ua-obe" secondAttribute="bottom" constant="66" id="yn5-YY-ASF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playButton" destination="rC1-ua-obe" id="kra-mO-jcO"/>
+                        <outlet property="recordButton" destination="Lyk-wz-ROH" id="qOq-jj-Gc3"/>
+                        <outlet property="stopButton" destination="6O4-7W-axY" id="u43-A0-xqp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
