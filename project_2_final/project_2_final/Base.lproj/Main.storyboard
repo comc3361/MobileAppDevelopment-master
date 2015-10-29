@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="project_2_final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njq-QD-TJx">
+                                <rect key="frame" x="105" y="106" width="42" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" red="0.33725490196078434" green="0.20784313725490197" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zbs-R2-ShN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueF-DF-dhi">
+                                <rect key="frame" x="183" y="100" width="53" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="C#">
+                                    <color key="titleColor" red="0.76078431372549016" green="0.29411764705882354" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="csAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DXy-nh-DKw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yh1-Od-maM">
+                                <rect key="frame" x="259" y="97" width="46" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="D">
+                                    <color key="titleColor" red="0.7803921568627451" green="0.79607843137254897" blue="0.63137254901960782" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="w0x-ZA-Drn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ym6-ad-Uy3">
+                                <rect key="frame" x="98" y="172" width="57" height="57"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="D#">
+                                    <color key="titleColor" red="0.7803921568627451" green="0.79607843137254897" blue="0.63137254901960782" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dsAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zdM-Iu-5xd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p76-Tg-UVT">
+                                <rect key="frame" x="183" y="182" width="36" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="E">
+                                    <color key="titleColor" red="0.2627450980392157" green="0.14509803921568629" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="eAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rmw-iV-LRT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyJ-WT-f7H">
+                                <rect key="frame" x="259" y="185" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="F">
+                                    <color key="titleColor" red="0.70196078431372544" green="0.21176470588235294" blue="0.23921568627450981" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="e7M-fX-OWk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="960-td-o37">
+                                <rect key="frame" x="102" y="236" width="48" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="F#">
+                                    <color key="titleColor" red="0.70196078431372544" green="0.21176470588235294" blue="0.23921568627450981" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fsAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bb7-y5-bbK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFe-BL-pwE">
+                                <rect key="frame" x="182" y="237" width="39" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="G">
+                                    <color key="titleColor" red="0.73333333333333328" green="0.75686274509803919" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tqE-4n-ltA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPk-Vh-ZHy">
+                                <rect key="frame" x="259" y="230" width="54" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="G#">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.098039215686274508" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gsAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Zia-bN-rWt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gj-tM-aiS">
+                                <rect key="frame" x="98" y="281" width="46" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="A">
+                                    <color key="titleColor" red="0.67843137254901964" green="0.70980392156862748" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="aAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cj5-NJ-fQ4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPl-Ml-FAO">
+                                <rect key="frame" x="182" y="284" width="48" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="A#">
+                                    <color key="titleColor" red="0.63529411764705879" green="0.13725490196078433" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="asAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iUV-Dk-FQG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J3t-jQ-gRH">
+                                <rect key="frame" x="266" y="297" width="33" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="B">
+                                    <color key="titleColor" red="0.73333333333333328" green="0.75686274509803919" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="A5X-Rf-tDA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="aButton" destination="4Gj-tM-aiS" id="kH1-C5-XfI"/>
+                        <outlet property="asButton" destination="yPl-Ml-FAO" id="5tS-2y-J34"/>
+                        <outlet property="bButton" destination="J3t-jQ-gRH" id="1Rg-a1-MA0"/>
+                        <outlet property="cButton" destination="Njq-QD-TJx" id="RyW-Hb-YTM"/>
+                        <outlet property="csButton" destination="ueF-DF-dhi" id="snM-C7-mj0"/>
+                        <outlet property="dButton" destination="yh1-Od-maM" id="Yx8-4R-M5z"/>
+                        <outlet property="dsButton" destination="Ym6-ad-Uy3" id="fFP-ce-E1S"/>
+                        <outlet property="eButton" destination="p76-Tg-UVT" id="BTL-e5-ime"/>
+                        <outlet property="fButton" destination="dyJ-WT-f7H" id="NGY-nC-9C1"/>
+                        <outlet property="fsButton" destination="960-td-o37" id="Hvl-Np-s58"/>
+                        <outlet property="gButton" destination="QFe-BL-pwE" id="IEu-BC-BtG"/>
+                        <outlet property="gsButton" destination="CPk-Vh-ZHy" id="43G-zo-rmX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
