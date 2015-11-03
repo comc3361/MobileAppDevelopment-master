@@ -14,11 +14,11 @@
 		<string>https://github.com/comc3361/MobileAppDevelopment-master.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Lab_4/animation/animation.xcodeproj</string>
+	<string>iphone_apps/Lab_4/animation/animation.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AEE974008CC8FA98B09138C1165ABF7E7B76CFE4</key>
-		<string>../../../..</string>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/comc3361/MobileAppDevelopment-master.git</string>
