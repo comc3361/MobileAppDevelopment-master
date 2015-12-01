@@ -156,6 +156,7 @@
 		072A3F861BE26D2900218FC2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Connor McGuinness";
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				072A3FAF1BE26D2900218FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		072A3FB01BE26D2900218FC2 /* Build configuration list for PBXNativeTarget "CommuterTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				072A3FB21BE26D2900218FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
