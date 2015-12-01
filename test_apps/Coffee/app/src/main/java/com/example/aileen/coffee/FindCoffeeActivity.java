@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class FindCoffeeActivity extends AppCompatActivity {
 
@@ -12,8 +13,11 @@ public class FindCoffeeActivity extends AppCompatActivity {
 
     public void findCoffee(View view){
         Spinner crowdSpinner = (Spinner)findViewById(R.id.spinner);
-        String crowd = String.valueOf(crowdSpinner.getSelectedItem());
-        myCoffeeShop.setCoffeeShop(crowd);
+
+        //String crowd = String.valueOf(crowdSpinner.getSelectedItem());
+        //myCoffeeShop.setCoffeeShop(crowd);
+
+
         String suggestedCoffeeShop = myCoffeeShop.getCoffeeShop();
         String suggestedCoffeeShopURL = myCoffeeShop.getCoffeeShopURL();
         System.out.println(suggestedCoffeeShop);
@@ -21,6 +25,10 @@ public class FindCoffeeActivity extends AppCompatActivity {
 
         //create an intent
         Intent intent = new Intent(this, ReceiveCoffeeActivity.class);
+
+        TextView messageView = (TextView) findViewById(R.id.coffeeShopTextView);
+        String message = getString(R.string.message);
+        messageView.setText(message + " " + coffeeShop);
 
         //pass data
         intent.putExtra("coffeeShopName", suggestedCoffeeShop);

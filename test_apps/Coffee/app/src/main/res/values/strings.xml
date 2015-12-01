@@ -13,4 +13,5 @@
     </string-array>
     <string name="coffee_image">coffee cup</string>
     <string name="suggested_coffee">This is your suggested coffee shop</string>
+    <string name="message">You should check out</string>
 </resources>

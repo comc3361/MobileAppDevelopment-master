@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    <string name="app_name">caffè</string>
+    <string name="title">caffetteria finder</string>
+    <string name="coffee_type">scegli la tua folla</string>
+    <string name="button">trovare caffè</string>
+    <string-array name="crowd">
+        <item>popolare</item>
+        <item>ciclismo</item>
+        <item>fricchettone</item>
+        <item>tè</item>
+        <item>hippie</item>
+        <item>college</item>
+    </string-array>
+    <string name="coffee_image">coffee cup</string>
+    <string name="suggested_coffee">Questo è il vostro negozio di caffè suggerito</string>
+
+</resources>

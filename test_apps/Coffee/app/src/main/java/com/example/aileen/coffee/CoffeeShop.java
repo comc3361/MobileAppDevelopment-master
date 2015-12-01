@@ -8,43 +8,43 @@ public class CoffeeShop {
     private String coffeeShop;
     private String coffeeShopURL;
 
-    private void setCoffeeInfo(String coffeeCrowd){
-        switch (coffeeCrowd){
-            case "cycling":
-                coffeeShop="Amante";
-                coffeeShopURL="https://www.amantecoffee.com";
-                break;
-            case "popular":
-                coffeeShop="Starbucks";
-                coffeeShopURL="https://www.starbucks.com";
-                break;
-            case "hipster":
-                coffeeShop="Ozo";
-                coffeeShopURL="https://ozocoffee.com";
-                break;
-            case "hippie":
-                coffeeShop="Trident";
-                coffeeShopURL="http://www.tridentcafe.com";
-                break;
-            case "tea":
-                coffeeShop="Pekoe";
-                coffeeShopURL="http://www.pekoesiphouse.com";
-                break;
-            case "college":
-                coffeeShop="Buchanans";
-                coffeeShopURL="http://www.buchananscoffeepub.com";
-                break;
-            default:
-                coffeeShop="none";
-                coffeeShopURL="https://www.google.com/search?q=boulder+coffee+shops&ie=utf-8&oe=utf-8";
+    private void setCoffeeInfo(Integer coffeeCrowd){
+        if (coffeeCrowd == 1) {
+            coffeeShop = "Amante";
+            coffeeShopURL = "https://www.amantecoffee.com";
         }
+        else if (coffeeCrowd == 0) {
+            coffeeShop = "Starbucks";
+            coffeeShopURL = "https://www.starbucks.com";
+        }
+        else if (coffeeCrowd == 2) {
+            coffeeShop = "Ozo";
+            coffeeShopURL = "https://ozocoffee.com";
+        }
+        else if (coffeeCrowd == 4) {
+            coffeeShop = "Trident";
+            coffeeShopURL = "http://www.tridentcafe.com";
+        }
+        else if (coffeeCrowd == 3) {
+            coffeeShop = "Pekoe";
+            coffeeShopURL = "http://www.pekoesiphouse.com";
+        }
+        else if (coffeeCrowd == 5) {
+            coffeeShop = "Buchanans";
+            coffeeShopURL = "http://www.buchananscoffeepub.com";
+        }
+        else {
+            coffeeShop = "none";
+            coffeeShopURL = "https://www.google.com/search?q=boulder+coffee+shops&ie=utf-8&oe=utf-8";
+        }
+
     }
 
-    public void setCoffeeShop(String coffeeCrowd){
+    public void setCoffeeShop(Integer coffeeCrowd){
         setCoffeeInfo(coffeeCrowd);
     }
 
-    public void setCoffeeShopURL(String coffeeCrowd){
+    public void setCoffeeShopURL(Integer coffeeCrowd){
         setCoffeeInfo(coffeeCrowd);
     }
 
