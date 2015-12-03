@@ -16,5 +16,15 @@
         android:layout_marginTop="68dp"
         />
 
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/earth"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="@+id/CoffeeShopTextView"
+        android:onClick="loadWebSite"
+        />
+
 
 </RelativeLayout>

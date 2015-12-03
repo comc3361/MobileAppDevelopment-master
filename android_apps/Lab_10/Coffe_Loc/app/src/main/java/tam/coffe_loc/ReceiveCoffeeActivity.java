@@ -6,6 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.content.Intent;
+import android.net.Uri;
+import android.view.View;
 
 
 public class ReceiveCoffeeActivity extends ActionBarActivity {
@@ -27,6 +29,12 @@ public class ReceiveCoffeeActivity extends ActionBarActivity {
 
         TextView messageView = (TextView) findViewById(R.id.CoffeeShopTextView);
         messageView.setText("You should check out " + coffeeShop);
+    }
+
+    public void loadWebSite(View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(coffeeShopURL));
+        startActivity(intent);
     }
 
 
