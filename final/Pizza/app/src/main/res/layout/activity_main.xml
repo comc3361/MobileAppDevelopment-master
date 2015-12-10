@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizza_built"
+        android:id="@+id/pizza_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizza_button"
+        android:id="@+id/pizza_button"
+        android:layout_above="@+id/pizza_text"
+        android:onClick="createPizza"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pizzaSpinner"
+        android:layout_below="@+id/topRow"
+        android:layout_alignParentStart="true"
+        android:entries="@array/size"
+        android:layout_marginTop="118dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizza_name"
+        android:id="@+id/textView"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topRow"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pizza_editText"
+            android:layout_weight="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/toggle_on"
+            android:textOff="@string/toggle_off"
+            android:id="@+id/sauce"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondRow"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/topRow"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/crust_text"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/crust_type"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crust1_radio"
+                android:id="@+id/radioButton1"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crust2_radio"
+                android:id="@+id/radioButton2"
+                android:layout_weight="1"/>
+
+        </RadioGroup>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gluten_switch"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/secondRow"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaFind"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+
+        android:onClick="findPizza"
+        android:layout_marginLeft="250dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11dp"
+        android:text="@string/warning_info"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/pizza_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/warning_info2"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/pizzaSpinner"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
