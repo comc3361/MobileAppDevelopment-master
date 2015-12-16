@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MindRead</string>
+    <string-array name="tables">
+        <item>table1</item>
+        <item>table2</item>
+        <item>table3</item>
+        <item>table4</item>
+        <item>table5</item>
+        <item>table6</item>
+        <item>table7</item>
+        <item>table8</item>
+        <item>table9</item>
+        <item>table10</item>
+    </string-array>
+
+    <string name="step1">1. Choose any two digit number.</string>
+    <string name="step2">2. Add together the two digits of your number.</string>
+    <string name="step3">3. Subtract your new number from your original number.</string>
+    <string name="step4">4. Now find your final number in table above.</string>
+    <string name="step5">5. Click reveal when ready and be amazed!</string>
+
+    <string name="reveal">Reveal</string>
+    <string name="refresh">Refresh Table</string>
+    <string name="help">Math Help</string>
+
+    <string name="math_welcome">Let me do the math for you!</string>
+    <string name="warningText">* Please only enter a two digit number.</string>
+
+    <string name="calc">Calculate</string>
+
+    <string name="finalNum">Your final number is\:</string>
+    <string name="reminder">Go back and find this number in the table and then click reveal.</string>
+
+
+
+</resources>
